@@ -13,7 +13,7 @@ export const Focus = ({addSubject}) => {
      <TextInput 
      style = {styles.textInput}
      onChangeText = {setSubject} 
-     label = "What would you like to focus on?" />
+     label = "What would you like to focus on today?" />
      <View style = {styles.button}>
      <RoundedButton title = "+" size = {50} onPress = {() => addSubject(subject)}  />
      </View>
